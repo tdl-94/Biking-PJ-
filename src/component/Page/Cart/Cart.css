@@ -1,0 +1,42 @@
+.box-cart {
+  color: white;
+}
+.list-cartproduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.cart-tble tr th:nth-child(4),
+.cart-tble tr td:nth-child(4) {
+  width: 116px;
+  padding-right: 9px;
+}
+.cart-tble tr th:nth-child(5),
+.cart-tble tr td:nth-child(5) {
+   max-width: 116px;
+    padding-right: 9px;
+}
+.cart-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-info table {
+  width: 1028px;
+}
+.cart-tble thead {
+  border-bottom: 1px solid red;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.quantity input 
+{
+    width: 30%;
+    color: white;
+}
